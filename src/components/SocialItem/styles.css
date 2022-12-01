@@ -1,0 +1,59 @@
+.social-item-wrapper {
+  width: fit-content;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+  text-decoration: unset;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+
+.social-item-wrapper:hover {
+  box-shadow: inset 0 0 0.25rem var(--text-color), 0 0 0.25rem var(--text-color);
+}
+
+.social-item-wrapper i {
+  font-size: 1.5rem;
+}
+
+.social-item-wrapper:is(.facebook) {
+  --text-color: hsl(220, 46%, 48%);
+}
+
+.social-item-wrapper:is(.linkedin) {
+  --text-color: hsl(201, 100%, 35%);
+}
+
+.social-item-wrapper:is(.github) {
+  --text-color: hsl(0, 0%, 20%);
+}
+
+.social-item-wrapper:is(.instagram) {
+  --text-color: hsl(0, 98%, 55%);
+}
+
+.social-item-wrapper:is(.twitter) {
+  --text-color: hsl(203, 89%, 53%);
+}
+
+.social-item-wrapper::before {
+  content: "";
+  height: 100%;
+  width: 3rem;
+  background-color: var(--text-color);
+  transform: translateX(-50%) skewX(-10deg);
+  position: absolute;
+  left: -1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-item-wrapper:hover::before {
+  left: calc(100% + 1rem);
+}

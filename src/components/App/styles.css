@@ -1,3 +1,9 @@
+:root {
+  --bg-color: hsl(50, 10%, 75%);
+  --text-color: hsl(230, 90%, 10%);
+  background-color: var(--bg-color);
+}
+
 .App {
-  /* nothing so far */
+  /* nothing */
 }

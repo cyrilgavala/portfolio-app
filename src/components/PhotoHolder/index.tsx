@@ -1,0 +1,1 @@
+export { PhotoHolder } from "./component";

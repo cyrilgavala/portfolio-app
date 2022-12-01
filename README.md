@@ -1,10 +1,3 @@
-# Template for React app.
+# Personal portfolio app.
 
-This project was bootstrapped with [Create React Component](https://github.com/facebook/create-react-app).
-Following libs are used:
-
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [ESLint](https://eslint.org)
-- [Prettier](https://prettier.io)
-- [Babel](https://babeljs.io)
+This project was initialized from [my template](https://github.com/cyrilgavala/react-typescript-template).

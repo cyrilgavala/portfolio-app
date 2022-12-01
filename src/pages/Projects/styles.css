@@ -1,0 +1,22 @@
+.projects-page {
+  height: 100vh;
+  padding-inline: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+}
+
+.scroll-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.8rem;
+}
