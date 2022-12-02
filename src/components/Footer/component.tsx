@@ -1,6 +1,5 @@
-import React from "react";
 import "./styles.css";
 
-export const Footer: React.FC = () => {
+export const Footer = () => {
   return <footer>&copy; {new Date().getFullYear()} Cyril Gavala</footer>;
 };

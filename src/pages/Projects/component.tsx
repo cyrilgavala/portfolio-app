@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { ProjectItem } from "../../components/ProjectItem";
 
-export const Projects: React.FC = () => {
+export const Projects = () => {
   return (
     <div className="projects-page">
       <div className="scroll-right">

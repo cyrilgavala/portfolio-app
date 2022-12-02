@@ -1,1 +1,1 @@
-export { IntroPage } from "./component";
+export { Intro } from "./component";

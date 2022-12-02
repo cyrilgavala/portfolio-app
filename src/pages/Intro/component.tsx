@@ -3,7 +3,7 @@ import { PhotoHolder } from "../../components/PhotoHolder";
 import { SocialItem } from "../../components/SocialItem";
 import "./styles.css";
 
-export const IntroPage: React.FC = () => {
+export const Intro = () => {
   return (
     <div className="intro-page">
       <PhotoHolder />

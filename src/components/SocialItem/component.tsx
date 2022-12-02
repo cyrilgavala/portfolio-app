@@ -1,17 +1,17 @@
 import React from "react";
 import "./styles.css";
 
-interface Props {
+interface SocialItemProps {
   label: "Facebook" | "Instagram" | "Twitter" | "LinkedIn" | "GitHub";
   url: string;
   icon: string;
 }
 
-export const SocialItem: React.FC<Props> = (props) => {
+export const SocialItem = ({ label, url, icon }: SocialItemProps) => {
   return (
-    <a className={`social-item-wrapper ${props.label.toLowerCase()}`} href={props.url} target="_blank" rel="noreferrer">
-      <i className={props.icon} />
-      <span>{props.label} </span>
+    <a className={`social-item-wrapper ${label.toLowerCase()}`} href={url} target="_blank" rel="noreferrer">
+      <i className={icon} />
+      <span>{label} </span>
     </a>
   );
 };
