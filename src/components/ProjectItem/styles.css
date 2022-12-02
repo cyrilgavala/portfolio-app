@@ -55,6 +55,10 @@
   background-image: url("/public/assets/images/projects/workout-challenges-webapp.png");
 }
 
+.front:is(.noise-player) {
+  background-image: url("/public/assets/images/projects/white-noise-player.png");
+}
+
 .title {
   width: 100%;
   height: 100%;
@@ -93,11 +97,18 @@
   cursor: default;
 }
 
-.back a {
-  all: unset;
+.back > a {
   color: var(--bg-color);
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 0.5rem;
   border: 2px solid var(--bg-color);
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.back li > a {
+  color: var(--bg-color);
+  text-decoration: none;
+  margin-left: .25rem;
 }
