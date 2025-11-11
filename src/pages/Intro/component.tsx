@@ -19,26 +19,8 @@ export const Intro = () => {
         <SocialItem label={"Twitter"} url={"https://twitter.com/cypooo"} icon={"fab fa-twitter"} />
       </div>
       <div className="about-wrapper">
-        <p>
-          I&apos;m Cyril Gavala and I‘m enthusiastic software engineer who is mainly dived in backend development in
-          Java. In my free time I try to learn and improve my skills in web development using JavaScript. I&apos;m
-          adaptable and resourceful. My advantage is mathematical education, which helps me to learn things more
-          quickly. Next I&apos;m creative and reliable with attention to the details. I&apos;m an Apple fan and
-          musician. Also I like body-weight and yoga workouts.
-        </p>
-      </div>
-      <div className="scroll-to-projects">
-        <p>
-          Click
-          <button
-            className="go-to-projects-btn"
-            title="Click to move to projects section"
-            onClick={() => document.querySelector(".projects-page")?.scrollIntoView({ behavior: "smooth" })}
-          >
-            here
-          </button>
-          to scroll down to the projects section.
-        </p>
+        <p>I&apos;m Cyril Gavala and I‘m</p>
+        <div className="spec"></div>
       </div>
     </div>
   );
